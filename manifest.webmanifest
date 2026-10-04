@@ -1,0 +1,10 @@
+{
+  "name": "Dress Atelier Prototype",
+  "short_name": "Dress Atelier",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f1f3",
+  "theme_color": "#f4f1f3",
+  "lang": "ja"
+}
