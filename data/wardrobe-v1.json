@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1440,
+    "height": 2560,
+    "format": "WebP preferred / PNG when needed"
+  },
+  "layerOrder": [
+    "base",
+    "hairBack",
+    "inner",
+    "bottoms",
+    "tops",
+    "dress",
+    "outer",
+    "hosiery",
+    "shoes",
+    "bag",
+    "accessory",
+    "hairFront",
+    "hat",
+    "glasses",
+    "makeup"
+  ],
+  "categories": {
+    "inner": {
+      "label": "インナー",
+      "items": [
+        "キャミ",
+        "タンク",
+        "半袖",
+        "長袖",
+        "ハイネック",
+        "見せインナー"
+      ],
+      "default": 0
+    },
+    "tops": {
+      "label": "トップス",
+      "items": [
+        "オフショル",
+        "シャツ",
+        "ブラウス",
+        "ニット",
+        "Tシャツ",
+        "カーデ"
+      ],
+      "default": 1
+    },
+    "bottoms": {
+      "label": "ボトムス",
+      "items": [
+        "プリーツ",
+        "デニム",
+        "ワイド",
+        "タイト",
+        "ロング",
+        "ショート"
+      ],
+      "default": 0
+    },
+    "dress": {
+      "label": "ワンピース",
+      "items": [
+        "Aライン",
+        "シャツワンピ",
+        "ニットワンピ",
+        "フレア",
+        "モード",
+        "ロング"
+      ],
+      "default": null
+    },
+    "outer": {
+      "label": "アウター",
+      "items": [
+        "ジャケット",
+        "ブルゾン",
+        "トレンチ",
+        "カーデ",
+        "レザー",
+        "コート"
+      ],
+      "default": null
+    },
+    "shoes": {
+      "label": "靴",
+      "items": [
+        "ロングブーツ",
+        "パンプス",
+        "スニーカー",
+        "ローファー",
+        "サンダル",
+        "ショートブーツ"
+      ],
+      "default": 0
+    },
+    "bag": {
+      "label": "バッグ",
+      "items": [
+        "ハンド",
+        "ショルダー",
+        "トート",
+        "ミニ",
+        "リュック",
+        "クラッチ"
+      ],
+      "default": null
+    },
+    "acc": {
+      "label": "アクセサリー",
+      "items": [
+        "ネックレス",
+        "ピアス",
+        "眼鏡",
+        "帽子",
+        "時計",
+        "リング"
+      ],
+      "default": null
+    }
+  },
+  "materials": [
+    "コットン",
+    "ニット",
+    "デニム",
+    "サテン",
+    "レザー"
+  ],
+  "notes": {
+    "layering": "インナーはトップスの下に保持。ワンピース着用時はトップス/ボトムスを視覚的に非表示。",
+    "color": "カテゴリごとにカラー状態を保持。",
+    "future": "フォトリアル透過WebPへ同一ID・同一座標で差し替える。"
+  }
+}
